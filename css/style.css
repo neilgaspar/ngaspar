@@ -1,3 +1,68 @@
+/*
+File: style.css
+Name: Neil Gaspar
+Date: March 18, 2018
+Description: This file contains the style for my webpage. This file holds various div tags and colour schemes
+             to make the site have a layout and scheme to it.
+Disclaimer: some div tags are from DivTable.com they start at the denoted "/* DivTable.com" and end at it to
+*/
+
+header{
+    color: orange;
+    font-weight: bold;
+}
+
+body {
+    background-color: steelblue;
+}
+
+h1 {
+    color: orange;
+}
+
+p {
+    color: black;
+}
+
+.divBody{
+    display: block;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+img.dc{
+    max-width: auto;
+    height: 30%;
+    float: right;
+}
+
+footer{
+    color: orange;
+    font-weight: bold;
+    text-align: right;
+}
+
+a{
+    color: orange;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:active{
+    color: orangered;
+}
+
+a:hover{
+    color: azure;
+}
+
+
 /* DivTable.com */
 .divTable{
 	display: table;
@@ -11,7 +76,7 @@
 	display: table-header-group;
 }
 .divTableCell, .divTableHead {
-	border: 1px solid #999999;
+	border: 0px solid #999999;
 	display: table-cell;
 	padding: 3px 10px;
 }
@@ -28,3 +93,4 @@
 .divTableBody {
 	display: table-row-group;
 }
+/* DivTable.com */
