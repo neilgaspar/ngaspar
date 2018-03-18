@@ -1,63 +1,39 @@
-<!--  
-Author: 		Neil Gaspar
-Date:			February 10, 2018
-File:			index.html
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
 
-Description: 	This page is to be a landing page with a links to the course page. It will display the author of the site, and
-				the course it is for along with a welcome message.
--->
+        <title>Neil Gaspar</title>
+        <script src="./javascript/Login.js" type="text/javascript"></script>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-   		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+    </head>
+    <body>
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="./css/style.css" /> 	 
-	<title></title>
-</head>
+        <h1>Welcome to Neil Gaspar's Page</h1>
+        <p>
+            This page is for the purpose of completing Classwork 3 of Mode 4201. In this page 
+            some details are told about me and what the purpose are.
+        </p>
 
-<body>
-	<div id="container">
-		<div id="header">
-			<h1>
-				Neil Gaspar's Website
-			</h1> 
-		</div>
-		<div id="sites">
-			<ul>
-				<li><a href="./index.html">Home</a></li>
-				<li><a href="./coursepage.html">Mode 4201 Course Page</a></li>
-			</ul>
-		</div>
-		<div id="content-container"> <!-- Closes in footer -->
-			<!-- Left navigation bar-->
-			<div id="navigation">
-				<h3>
-					Local Navigation Bar
-				</h3>
-				<ul>
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="./coursepage.html">Mode 4201 Course Page</a></li>
-				</ul>
-			</div>
-			<div id="content"> <!-- Closes in footer -->
+        <hr/>
 
-<!-- start of main page content. --> 
+        <p>
+            User Name: <input type="text" name="username" id="username" value="" /><br/>
+            Password : <input type="password" name="password" id="password" value="" /><br/>
+            <input type="button" value="Log in" id="submit" onClick="Login()" name="submit" />
+        </p>
 
-<h1>Welcome to Neil Gaspar's Webpages</h1>
-<hr/>
-<p>
-	Author: Neil Gaspar<br/>
-	Course: MODE 4201<br/>
-</p>
+        <p id="errorMessage"></p>
+        <hr/>
 
-			</div>	<!-- Closes 'content' from header -->	
-			<div id="footer"> 				
-					<p  style="text-align:right" >&copy;2017 Neil Gaspar</p>			
-				</div>
-		</div> <!-- Closes 'content-container' from header -->
-	</div> <!-- Closes 'container' from header -->
+        <h2>About:</h2>
+        <p>
+            <ul>
+                <li>Name:    Neil Gaspar</li>
+                <li>Purpose: Classwork 3</li>
+                <li><img src="./images/DC-logo-700-by-400.jpg" alt="Durham College Logo"></li>
+            </ul>
+        </p>
 
-</body>
+    </body>
 </html>
