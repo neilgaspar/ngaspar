@@ -39,3 +39,9 @@ function Login(){
         document.getElementById("errorMessage").innerHTML = displayString;
     }
 }
+
+function Reset()
+{
+    document.getElementById("username").value = "";
+    document.getElementById("password").value = "";
+}
