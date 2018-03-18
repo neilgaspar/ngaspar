@@ -46,6 +46,15 @@ footer{
     text-align: right;
 }
 
+nav{
+    background: azure;
+    color: black;
+    border: 1px solid black;
+	display: block;
+    padding: 3px 10px;
+    width: auto;
+}
+
 a{
     color: orange;
 }
@@ -59,7 +68,7 @@ a:active{
 }
 
 a:hover{
-    color: azure;
+    color: black;
 }
 
 
