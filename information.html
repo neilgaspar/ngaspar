@@ -8,32 +8,23 @@
 
     </head>
     <body>
-
-        <header>
-            <div class="divTable">
-                <div class="divTableBody">
-                    <div class="divTableRow">
-                        <div class="divTableCell">
-                            <br/>
-                            Name: Neil Gaspar<br/>
-                            Program: Computer Programmer Analyst<br/>
-                            College: Durham College<br/>
-                            Email: gaspar@email.com<br/>
-                            Phone: 555-555-5555<br/>
-                        </div>
-                        <div class="divTableCell">
-                            <br/>
-                            <img class="dc" src="./images/DC-logo-700-by-400.jpg" alt="Durham College Logo">
-                        </div>
-                    </div>
+    
+            <nav>
+                    <a href="./index.html">Home</a>
+            </nav>
+    
+            <header>
+                <div class="header">
+                    <img class="dc" src="./images/DC-logo-700-by-400.jpg" alt="Durham College Logo"><br/>
+                    Name: Neil Gaspar<br/>
+                    Program: Computer Programmer Analyst<br/>
+                    College: Durham College<br/>
+                    Email: gaspar@email.com<br/>
+                    Phone: 555-555-5555<br/>
                 </div>
-            </div>
-        </header>
-
-        <nav>
-            <a href="./index.html">Home</a>
-        </nav>
-
+            </header>
+    
+    
         <h1>Welcome to Neil Gaspar's Information Page</h1>
         <p>
             This page is for the purpose of completing Classwork 3 of Mode 4201. In this page 
@@ -41,88 +32,79 @@
             multiple pictures, audio file and a video file.
         </p>
 
-        <hr/>
-
         <p>
             The topic I have chosen to put on this page to display the various html5 elements and how they can be used in a
             responsive webpage is Cats. Since, there are so many types of cats I have chosen to use the following types of cats:
             Domestic cats, Serval cats, Lions, and Cheetahs.
         </p>
+        
+        <br/>
+        <div class="container">
+            <div class="cat">
+                <img class="catimg" src="./images/domestic.jpg" alt="Domestic Cat"><br/>
+                Domestic cats come in many breeds, and many people also have cats as pets which they are usually one of these breeds.
+                Cats tend to sleep a lot. Also, cats can have very different personalities, which can also depend on whether
+                they have other cats in the household. Before they reach adulthood, they are called kittens.
+            </div>
 
-        <!-- DivTable.com -->
-        <div class="divTable">
-            <div class="divTableBody">
-                <div class="divTableRow">
-                    <div class="divTableCell">
-                        <img src="./images/domestic.jpg" alt="Domestic Cat">
-                    </div>
-                    <div class="divTableCell">
-                        <img src="./images/serval.jpg" alt="Serval Cat">
-                    </div>
-                    <div class="divTableCell">
-                        <img src="./images/lion.jpg" alt="Lion">
-                    </div>
-                    <div class="divTableCell">
-                        <img src="./images/cheetah.jpg" alt="Cheetah">
-                    </div>
-                </div>
-                <div class="divTableRow">
-                    <div class="divTableCell">
-                        Domestic cats come in many breeds, and many people also have cats as pets which they are usually one of these breeds.
-                        Cats tend to sleep a lot. Also, cats can have very different personalities, which can also depend on whether
-                        they have other cats in the household. Before they reach adulthood, they are called kittens.
-                    </div>
-                    <div class="divTableCell">
-                        Serval cats are much bigger cats than a domestic cat. They also have large ears, also they can jump really high.
-                        Serval cats are wild cats although some people do own them as house pets, but they do require significantly more
-                        maintenance than a regular domestic cat.
-                    </div>
-                    <div class="divTableCell">
-                        Lions are generally regards the king of the kingdom. I think they are overrated. Although, their manes
-                        are very pretty and they do have a magnificent roar. The female lions do not have a mane and they are the 
-                        hunters of the pack.
-                    </div>
-                    <div class="divTableCell">
-                            Cheetahs are my favorite animal, they can run really fast. They only chase after prey that
-                            they know they can catch otherwise they won't waste their energy. Also, when they are cubs
-                            they are very cute. As cubs they are playful and this helps them learn to hunt. 
-                    </div>
-                </div>
+            <div class="cat">
+                <img class="catimg" src="./images/serval.jpg" alt="Serval Cat"><br/>
+                Serval cats are much bigger cats than a domestic cat. They also have large ears, also they can jump really high.
+                Serval cats are wild cats although some people do own them as house pets, but they do require significantly more
+                maintenance than a regular domestic cat.
+            </div>
+
+            <div class="cat">
+                <img class="catimg" src="./images/lion.jpg" alt="Lion"><br/>
+                Lions are generally regards the king of the kingdom. I think they are overrated. Although, their manes
+                are very pretty and they do have a magnificent roar. The female lions do not have a mane and they are the 
+                hunters of the pack.
+            </div>
+
+            <div class="cat">
+                <img class="catimg" src="./images/cheetah.jpg" alt="Cheetah"><br/>
+                Cheetahs are my favorite animal, they can run really fast. They only chase after prey that
+                they know they can catch otherwise they won't waste their energy. Also, when they are cubs
+                they are very cute. As cubs they are playful and this helps them learn to hunt. 
             </div>
         </div>
-        <!-- DivTable.com -->
-
-        <hr/>
-        <br/>
 
 
-        <div class="divBody">
+
+        <p style="text-align:center;">
             Below shows the use of a audio html5 element this audio file is of the star wars rebel theme. I do not own it. 
             It was retrieved from <a href="http://www.thesoundarchive.com/star-wars.asp"></a>http://www.thesoundarchive.com/star-wars.asp</a>.
             <br/>
+
             <audio controls>
                 <source src="./audio/rebel-theme.mp3" type="audio/mp3">
                 Your browser does not support the audio element.
             </audio>
-        </div>
-
+        </p>
+        
+        
         <br/>
-        <div class="divBody">
+
+        <p style="text-align:center;">
             Below shows the use of a video html5 element this video file is of the Big Buck Bunny.. I do not own it. 
             It was retrieved from <a href="https://www.w3schools.com/html/html5_video.asp">https://www.w3schools.com/html/html5_video.asp</a>.
             <br/>
-            <video width="320" height="240" controls>
+
+            <video width="80%" height="auto" controls>
                 <source src="./video/mov_bbb.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-        </div>
+        </p>
+        
 
         <br/>
-        <div class="divBody">
+        <p style="text-align:center;">
             Below is the use of a iframe tag which is used to show a youtube video about cheetahs.
             <br/>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/icFMTB0Pi0g">Your browser doesn't support the iframe tag</iframe>
-        </div>
+
+            <iframe width="80%" height="600px" src="https://www.youtube.com/embed/icFMTB0Pi0g">Your browser doesn't support the iframe tag</iframe>
+        </p>
+        
 
         <br/>
         <footer>
