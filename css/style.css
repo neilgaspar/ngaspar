@@ -1,104 +1,38 @@
 /*
-File: style.css
-Name: Neil Gaspar
-Date: March 18, 2018
-Description: This file contains the style for my webpage. This file holds various div tags and colour schemes
-             to make the site have a layout and scheme to it.
-Disclaimer: some div tags are from DivTable.com they start at the denoted "/* DivTable.com" and end at it to
+	File: style.css
+    Author: Neil Gaspar
+    Date Last Modified: April 8, 2018
+    Description: Style for the website
 */
 
-header{
-    display: block;
-    color: orange;
-    font-weight: bold;
-    width: 100%;
-}
-
 body {
-    background-color: steelblue;
+	background: #64646475;
 }
 
-h1 {
-    color: orange;
-    text-align: center;
+header{
+	font-size: 40px;
+	font-weight: bold;
 }
 
-p {
-    color: black;
-    width: 95%;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-}
-
-img.dc{
-    max-width: auto;
-    height: 200px;
-    float: right;
-}
-
-img.catimg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-iframe{
-    max-width: 95%;
+nav {
+    background: White;
+    color: red;
 }
 
 footer{
-    color: orange;
-    font-weight: bold;
-    text-align: right;
+	text-align: center;
 }
 
-nav{
-    background: azure;
-    color: black;
-    border: 1px solid black;
-	display: block;
-    padding: 3px 10px;
-    width: auto;
-}
-
-a{
-    color: orange;
-}
-
-a:visited {
-    color: orange;
-}
-
-a:active{
-    color: orangered;
-}
-
-a:hover{
-    color: black;
-}
-
-.cat {
+.body{
     display: block;
     float: left;
     margin: 5px;
     padding: 15px;
-    width: 300px;
+    width: 97%;
     height: auto;
-    border: 1px solid black;
     min-height: 400px;
-} 
-
-.header{
-    float: left;
-    margin: 5px;
-    padding: 15px;
-    width: 95%;
-    height: auto;
 }
 
-.container{
-    min-height: 450px;
+p.missing{
+    color: red;
 }

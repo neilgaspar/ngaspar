@@ -1,69 +1,58 @@
+<!-- 
+    File: index.html
+    Author: Neil Gaspar
+    Date Last Modified: April 8, 2018
+    Description: Webpage that talks about the site as a whole
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <html>
     <head>
-
-        <title>Neil Gaspar</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <script src="./javascript/Login.js" type="text/javascript"></script>
-
+        <title>Neil Gaspar's Home Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/> 
+        <script src="./java_script/functions.js" type="text/javascript"></script>
     </head>
     <body>
+        <!-- Page header and nav -->
+        <div>
+            <script>header()</script>
+            <script>nav_bar()</script>
+        </div>
 
-        <nav>
-                <a href="./index.html">Home</a>
-        </nav>
+        <!-- Page content -->
+        <div class="body">
 
-        <header>
-            <div class="header">
-                <img class="dc" src="./images/DC-logo-700-by-400.jpg" alt="Durham College Logo"><br/>
-                Name: Neil Gaspar<br/>
-                Program: Computer Programmer Analyst<br/>
-                College: Durham College<br/>
-                Email: gaspar@email.com<br/>
-                Phone: 555-555-5555<br/>
-            </div>
-        </header>
-    
-    
+            <p>
+                Welcome to my home page, from here you can go to my other pages which are about various sports. The sports available to view are
+                snowboarding, formula 1 and lastly hockey. Each page will tell you a bit about each sport and the equipment needed for the sports
+                like hockey. 
+            </p>
 
-        <h1>Welcome to Neil Gaspar's Home Page</h1>
-        <p>
-            This page is for the purpose of completing Classwork 3 of Mode 4201. In this page 
-            some details are told about me and what the purpose are.
-        </p>
+            <p>
+                Each page will talk a little about what equipment is needed and how to get into the sport. From each respective page it will have 
+                links to sites that are about the sport and you may find interesting. For example, Formula 1 will have a link that will take you to
+                the Formula 1 website where you can see news about the sport.
+            </p>
 
-        <hr/>
-        <p>To login use the username "User123" and the password "Information"</p>
+            <p>
+                There are many more sports than the ones covered on my site and many of them are also very exciting and have large followings,
+                such as soccer or football depending on where you are from. 
+            </p>
 
-        <p>
-            Username: <input type="text" name="username" id="username" value="" /><br/>
-            Password: &nbsp;<input type="password" name="password" id="password" value="" /><br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="button" value="Login" id="submit" onClick="Login()" name="submit" />
-            <input type="button" value="Reset" id="reset" onClick="Reset()" name="reset" />
-        </p>
+            <p style="text-align:center;"><img src="./images/HockeyPlayers.jpg"/></p>
+        </div>
 
-        <p id="errorMessage"></p>
-        <hr/>
-
-        <h2>About:</h2>
-        <p>
-            <ul>
-                <li>Name:    Neil Gaspar</li>
-                <li>Purpose: Classwork 3</li>
-                <li><img src="./images/DC-logo-700-by-400.jpg" alt="Durham College Logo"></li>
-            </ul>
-        </p>
-
-        <br/>
-        <footer>
-            Copyright March 18, 2018. Neil Gaspar.<br/>
-            <a href="https://www.facebook.com">Facebook.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.twitter.com">Twitter.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.instagram.com">Instagram.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com">LinkedIn.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.youtube.com">Youtube.com</a>
-        </footer>
+        <!-- Page footer -->
+        <div>
+            <script>footer()</script>
+        </div>
     </body>
 </html>
+
+
+
+
+

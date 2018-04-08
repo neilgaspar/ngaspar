@@ -1,0 +1,83 @@
+<!-- 
+    File: hockey.html
+    Author: Neil Gaspar
+    Date Last Modified: April 8, 2018
+    Description: Talks about hockey equipment and its accessability to people.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Neil Gaspar's Hockey Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+        <script src="./java_script/functions.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!-- Page header and nav -->
+        <div>
+            <script>header()</script>
+            <script>nav_bar()</script>
+        </div>
+
+        <!-- Page content -->
+        <div class="body">
+
+            <h1 style="text-align:Center;">Hockey</h1>
+
+            <p style="text-align:Center;"><img src="./images/2018-wjc-jan-05-can-swe-b.jpg" width="50%" height="auto"/></p><!--https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2017-18-->
+            <p>
+                Hockey is a team sport, and is played as either a skater or a goalie. A goalie plays in front of a net within the crease, their job
+                is to stop the puck from entering the net. They were different equipment than that of the players as it is to protect them when they
+                attempt to stop a puck. As pucks can get up to fairly highspeeds, some of these speeds can be seen if you watch the videos at this
+                <a href="https://www.nhl.com/goldenknights/news/hardest-shot-competition-3-top-moments/c-286192878">link</a>.
+            </p>
+
+            <h3>Equipment</h3>
+
+            <input type="checkbox" id="helmet" value="Helmet">Helmet<br/>
+            <input type="checkbox" id="neck_guard" value="Neck Guard">Neck Guard<br/>
+            <input type="checkbox" id="shoulder_pads" value="Shoulder Pads">Shoulder Pads<br/>
+            <input type="checkbox" id="elbow_pads" value="Elbow Pads">Elbow Pads<br/>
+            <input type="checkbox" id="gloves" value="Hockey Gloves">Hockey Gloves<br/>
+            <input type="checkbox" id="stick" value="Hockey Stick">Hockey Stick<br/>
+            <input type="checkbox" id="pants" value="Hockey Pants">Hockey Pants<br/>
+            <input type="checkbox" id="jock" value="Jock">Jock<br/>
+            <input type="checkbox" id="shin_pads" value="Shin Pads">Shin Pads<br/>
+            <input type="checkbox" id="skates" value="Skates">Skates<br/>
+
+            <input type="button" value="Submit" id="submit" onClick="check()" name="submit" />
+            <input type="button" value="Reset" id="reset" onClick="reset()" name="reset"/>
+
+            <p class="missing" id="missing"></p>
+
+            <p>
+                Even if wear you play doesnt recommend a full face guard on your helmet, it is advised as you could be hit in the face by the puck
+                or another player and it could break teeth or bones and the full faceguard helps to prevent that.
+            </p>
+
+            <h3>Objectives</h3>
+            <p>
+                The objective of the game of hockey is to put the puck in the opposing teams net. This is done by team working and using 
+                your stick to guide the puck to the net by doing this your team scores 1 point. The game does not end by a certain amount
+                of points it ends after 3 periods that are 20 minutes in length, or if the game goes to overtime or a shootout.
+                The game will go to overtime or a shootout if the score is tied at the end of the 3 periods. There are many rules to 
+                hockey such as high-sticking which is when you raise the bottom of your stick above your shoulders or over the height 
+                of the nets cross bar. Each penalty has a sign that the refs, use to communicate what penalty is being called, 
+                continuing with the high-sticking example this can be seen by the ref putting his hands up like he is holding 
+                onto a stick in the air and doing a flick.
+            </p>
+
+            <p style="text-align:Center;"><iframe src='https://www.nhl.com/video/embed/top-10-saves-of-the-season/t-277350912/c-59660503?autostart=false' width='50%' height='410' frameborder="0" allowfullscreen></iframe></p>
+
+
+        </div>
+
+        <!-- Page footer -->
+        <div>
+            <script>footer()</script>
+        </div>
+    </body>
+</html>
